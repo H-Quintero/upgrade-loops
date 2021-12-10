@@ -13,19 +13,50 @@ const placesToTravel = [
   //For...of
   
   for(let myPlaces of placesToTravel) {
-   if(myPlaces.id === 11 ) {
-     placesToTravel.splice(placesToTravel.indexOf, 1)
+  
+   if(myPlaces.id == 11 || myPlaces.id == 40) {
+     
+     placesToTravel.splice(placesToTravel.indexOf(myPlaces), 1)
   }
-  console.log(myPlaces)
-  }
+}
+console.log(placesToTravel)
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   //Eliminando el elemento del array
   for(i = 0; i < placesToTravel.length; i++) {
    if(placesToTravel[i].id == 11 || placesToTravel[i].id == 40) {
      placesToTravel.splice(i, 1)
    }
   }
-  // console.log(placesToTravel)
+// console.log(placesToTravel)
  
  //Creando un nuevo array
    let newPlace = []
