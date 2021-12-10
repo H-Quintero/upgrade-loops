@@ -9,6 +9,15 @@ const placesToTravel = [
   {id: 40, name: 'Santander'}, 
   {id: 44, name: 'Filipinas'}, 
   {id: 59, name: 'Madagascar'}]
+  
+  //For...of
+  
+  for(let myPlaces of placesToTravel) {
+   if(myPlaces.id === 11 ) {
+     placesToTravel.splice(placesToTravel.indexOf, 1)
+  }
+  console.log(myPlaces)
+  }
 
   //Eliminando el elemento del array
   for(i = 0; i < placesToTravel.length; i++) {
@@ -16,7 +25,7 @@ const placesToTravel = [
      placesToTravel.splice(i, 1)
    }
   }
-  console.log(placesToTravel)
+  // console.log(placesToTravel)
  
  //Creando un nuevo array
    let newPlace = []
@@ -25,4 +34,4 @@ const placesToTravel = [
      newPlace.push(placesToTravel[i]) 
    }
  }
- console.log(newPlace)
+//  console.log(newPlace)
