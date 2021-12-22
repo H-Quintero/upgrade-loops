@@ -10,10 +10,9 @@ const toys = [
 	{id: 40, name: 'El gato felix', sellCount: 35}
 ]
 
-for(let noCats of toys) {
-  debugger
-  if(noCats.sellCount > 15) {
-    popularToys.push(noCats)
+for(let mostSell of toys) {
+  if(mostSell.sellCount > 15) {
+    popularToys.push(mostSell)
   }
 }
 console.log(popularToys)

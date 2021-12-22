@@ -20,37 +20,8 @@ const placesToTravel = [
   }
 }
 console.log(placesToTravel)
-
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  //Eliminando el elemento del array
+//Eliminando el elemento del array
   for(i = 0; i < placesToTravel.length; i++) {
    if(placesToTravel[i].id == 11 || placesToTravel[i].id == 40) {
      placesToTravel.splice(i, 1)

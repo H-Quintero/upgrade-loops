@@ -8,5 +8,5 @@ const alien = {
 }
 
 for(let data in alien) {
-  console.log(data +' '+ alien[data])
+  console.log(data +': '+ alien[data])
 }

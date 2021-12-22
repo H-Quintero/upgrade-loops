@@ -14,9 +14,9 @@ let aprobados = (approved) => {
     if(approved[i].T1 == true && approved[i].T2 == true ||
        approved[i].T1 == true && approved[i].T3 == true ||
        approved[i].T2 == true && approved[i].T3 == true) {
-      alumns[i].isApproved = true
+      approved[i].isApproved = true
     } else {
-      alumns[i].isApproved = false
+      approved[i].isApproved = false
     }
   }
   return approved

@@ -13,7 +13,7 @@ let productTshirts = (param) => {
   let tshirts = []
   for(i = 0; i < param.length; i++)
   if(param[i].includes('Camiseta') == true) {
-    tshirts += param[i] + ','
+    tshirts += param[i] + ', '
   }
   return tshirts
 }
